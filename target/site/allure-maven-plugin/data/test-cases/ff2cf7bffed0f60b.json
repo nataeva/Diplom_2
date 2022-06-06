@@ -1,0 +1,165 @@
+{
+  "uid" : "ff2cf7bffed0f60b",
+  "name" : "authorizeExistingUserWithWrongCredentialsTest",
+  "fullName" : "UserAuthTest.authorizeExistingUserWithWrongCredentialsTest",
+  "historyId" : "bffa30eb6516172f61584fdd244ad6cb",
+  "time" : {
+    "start" : 1654473733525,
+    "stop" : 1654473735287,
+    "duration" : 1762
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully create a user",
+      "time" : {
+        "start" : 1654473733526,
+        "stop" : 1654473734025,
+        "duration" : 499
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create a user",
+        "time" : {
+          "start" : 1654473733526,
+          "stop" : 1654473734025,
+          "duration" : 499
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "model.UserRequestModel@41dc34c8"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elena",
+        "value" : "model.UserRequestModel@41dc34c8"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473734025,
+        "stop" : 1654473734414,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@7a689979"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473734415,
+        "stop" : 1654473734868,
+        "duration" : 453
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@41dc34c8"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Delete a user",
+      "time" : {
+        "start" : 1654473734869,
+        "stop" : 1654473735287,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0NDA2OTk5ZmIyMDAxYjZmZjU5ZiIsImlhdCI6MTY1NDQ3MzczNCwiZXhwIjoxNjU0NDc0OTM0fQ.4Mk8hVbZVmxYtltjJekUd2dISptW5czZRdRwNVT6jmQ"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserAuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizeExistingUserWithWrongCredentialsTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserAuthTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "9640@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca0cccc168664b9",
+      "status" : "broken",
+      "statusDetails" : "Header value cannot be null",
+      "time" : {
+        "start" : 1654473550840,
+        "stop" : 1654473553937,
+        "duration" : 3097
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff2cf7bffed0f60b.json",
+  "parameterValues" : [ ]
+}

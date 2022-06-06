@@ -1,0 +1,157 @@
+{
+  "uid" : "475f63bebfe9c14e",
+  "name" : "createOrderWithUnauthorizedUser",
+  "fullName" : "OrderCreateTest.createOrderWithUnauthorizedUser",
+  "historyId" : "2b06e300b9f2ef74466c9b606326649b",
+  "time" : {
+    "start" : 1654473526976,
+    "stop" : 1654473536303,
+    "duration" : 9327
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully create a user",
+      "time" : {
+        "start" : 1654473529027,
+        "stop" : 1654473534618,
+        "duration" : 5591
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create a user",
+        "time" : {
+          "start" : 1654473529034,
+          "stop" : 1654473534616,
+          "duration" : 5582
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "model.UserRequestModel@67507df"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elena",
+        "value" : "model.UserRequestModel@67507df"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Create an order",
+      "time" : {
+        "start" : 1654473534619,
+        "stop" : 1654473535056,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "model.OrderRequestModel@47f0e078"
+      }, {
+        "name" : "token",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473535057,
+        "stop" : 1654473535555,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@67507df"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Delete a user",
+      "time" : {
+        "start" : 1654473535751,
+        "stop" : 1654473536293,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0MzNlOTk5ZmIyMDAxYjZmZjU0NCIsImlhdCI6MTY1NDQ3MzUzNSwiZXhwIjoxNjU0NDc0NzM1fQ.3He6EdZmV1d5u40F1fxdGdMOEGE-2GJmLz_RPDJNBiw"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithUnauthorizedUser"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "3476@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "475f63bebfe9c14e.json",
+  "parameterValues" : [ ]
+}

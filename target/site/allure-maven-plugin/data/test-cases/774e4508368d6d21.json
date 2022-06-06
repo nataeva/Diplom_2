@@ -1,0 +1,146 @@
+{
+  "uid" : "774e4508368d6d21",
+  "name" : "createUniqueUserTest",
+  "fullName" : "UserCreationTest.createUniqueUserTest",
+  "historyId" : "3d6d8ff901d53af220992f0050a8149e",
+  "time" : {
+    "start" : 1654473745018,
+    "stop" : 1654473746735,
+    "duration" : 1717
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully create a user",
+      "time" : {
+        "start" : 1654473745018,
+        "stop" : 1654473745502,
+        "duration" : 484
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create a user",
+        "time" : {
+          "start" : 1654473745019,
+          "stop" : 1654473745502,
+          "duration" : 483
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "model.UserRequestModel@5a5024eb"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elena",
+        "value" : "model.UserRequestModel@5a5024eb"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473745502,
+        "stop" : 1654473745967,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@5a5024eb"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Delete a user",
+      "time" : {
+        "start" : 1654473745968,
+        "stop" : 1654473746735,
+        "duration" : 767
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0NDExOTk5ZmIyMDAxYjZmZjVhZCIsImlhdCI6MTY1NDQ3Mzc0NSwiZXhwIjoxNjU0NDc0OTQ1fQ.yj9Q_dX3mcjF3GQBP5NLqNqpe_Cln7-cLCpp2JE4wso"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUniqueUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "9640@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3a708ae1f09f4044",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654473564721,
+        "stop" : 1654473566054,
+        "duration" : 1333
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "774e4508368d6d21.json",
+  "parameterValues" : [ ]
+}

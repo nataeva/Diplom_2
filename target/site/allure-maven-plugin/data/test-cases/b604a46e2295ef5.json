@@ -1,0 +1,164 @@
+{
+  "uid" : "b604a46e2295ef5",
+  "name" : "getOrdersForUnauthorizedUserTest",
+  "fullName" : "OrderGetTest.getOrdersForUnauthorizedUserTest",
+  "historyId" : "ff598bf9428263ee18306b7252cf3504",
+  "time" : {
+    "start" : 1654473727728,
+    "stop" : 1654473729503,
+    "duration" : 1775
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully create a user",
+      "time" : {
+        "start" : 1654473727729,
+        "stop" : 1654473728219,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create a user",
+        "time" : {
+          "start" : 1654473727729,
+          "stop" : 1654473728219,
+          "duration" : 490
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "model.UserRequestModel@5c81ddab"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elena",
+        "value" : "model.UserRequestModel@5c81ddab"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Get authorized users orders",
+      "time" : {
+        "start" : 1654473728219,
+        "stop" : 1654473728610,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473728610,
+        "stop" : 1654473729060,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@5c81ddab"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Delete a user",
+      "time" : {
+        "start" : 1654473729062,
+        "stop" : 1654473729503,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0NDAwOTk5ZmIyMDAxYjZmZjU5NCIsImlhdCI6MTY1NDQ3MzcyOSwiZXhwIjoxNjU0NDc0OTI5fQ.yLVRvuaXTeg3ORLqguxRufnJcneDyrVwzD3WbMzIrJw"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderGetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrdersForUnauthorizedUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "OrderGetTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "9640@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e80b0fc9966a8530",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654473544659,
+        "stop" : 1654473546370,
+        "duration" : 1711
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b604a46e2295ef5.json",
+  "parameterValues" : [ ]
+}
