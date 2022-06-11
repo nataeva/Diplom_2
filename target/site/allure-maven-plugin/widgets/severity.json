@@ -1,0 +1,131 @@
+[ {
+  "uid" : "774e4508368d6d21",
+  "name" : "createUniqueUserTest",
+  "time" : {
+    "start" : 1654473745018,
+    "stop" : 1654473746735,
+    "duration" : 1717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e44334dc427ba1b0",
+  "name" : "changeUserWithoutAuth",
+  "time" : {
+    "start" : 1654473735290,
+    "stop" : 1654473738069,
+    "duration" : 2779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a2c2763c91de2b",
+  "name" : "createOrderWithoutIngredients",
+  "time" : {
+    "start" : 1654473725308,
+    "stop" : 1654473727721,
+    "duration" : 2413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2903841897112d32",
+  "name" : "changeUserWithAuth",
+  "time" : {
+    "start" : 1654473738071,
+    "stop" : 1654473742250,
+    "duration" : 4179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c662adbb09639d8a",
+  "name" : "getOrdersForAuthorizedUserTest",
+  "time" : {
+    "start" : 1654473729506,
+    "stop" : 1654473731723,
+    "duration" : 2217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11698cee3487e4f",
+  "name" : "authorizeExistingUserTest",
+  "time" : {
+    "start" : 1654473731727,
+    "stop" : 1654473733522,
+    "duration" : 1795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b604a46e2295ef5",
+  "name" : "getOrdersForUnauthorizedUserTest",
+  "time" : {
+    "start" : 1654473727728,
+    "stop" : 1654473729503,
+    "duration" : 1775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff2cf7bffed0f60b",
+  "name" : "authorizeExistingUserWithWrongCredentialsTest",
+  "time" : {
+    "start" : 1654473733525,
+    "stop" : 1654473735287,
+    "duration" : 1762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9394098225eb655f",
+  "name" : "createOrderWithUnauthorizedUser",
+  "time" : {
+    "start" : 1654473711544,
+    "stop" : 1654473720322,
+    "duration" : 8778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62eee45ae929fea6",
+  "name" : "createUniqueUserWithoutRequiredFieldTest",
+  "time" : {
+    "start" : 1654473743939,
+    "stop" : 1654473745011,
+    "duration" : 1072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df8515aebb2370e5",
+  "name" : "createAlreadyExistingUserTest",
+  "time" : {
+    "start" : 1654473742255,
+    "stop" : 1654473743936,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f96034a78f08a52",
+  "name" : "createOrderWithWrongIngredients",
+  "time" : {
+    "start" : 1654473723058,
+    "stop" : 1654473725303,
+    "duration" : 2245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "683ca7a270c2065f",
+  "name" : "createOrderWithAuthorizedUser",
+  "time" : {
+    "start" : 1654473720436,
+    "stop" : 1654473723056,
+    "duration" : 2620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

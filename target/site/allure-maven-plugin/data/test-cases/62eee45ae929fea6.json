@@ -1,0 +1,128 @@
+{
+  "uid" : "62eee45ae929fea6",
+  "name" : "createUniqueUserWithoutRequiredFieldTest",
+  "fullName" : "UserCreationTest.createUniqueUserWithoutRequiredFieldTest",
+  "historyId" : "921fba6c4ebd02cb293a6d1dae603f3",
+  "time" : {
+    "start" : 1654473743939,
+    "stop" : 1654473745011,
+    "duration" : 1072
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a user",
+      "time" : {
+        "start" : 1654473743939,
+        "stop" : 1654473744301,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@4767be27"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Create a user",
+      "time" : {
+        "start" : 1654473744301,
+        "stop" : 1654473744655,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@52a8f789"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Create a user",
+      "time" : {
+        "start" : 1654473744655,
+        "stop" : 1654473745011,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@74ed1d35"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUniqueUserWithoutRequiredFieldTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "9640@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34b278298f123784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654473563094,
+        "stop" : 1654473564719,
+        "duration" : 1625
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62eee45ae929fea6.json",
+  "parameterValues" : [ ]
+}

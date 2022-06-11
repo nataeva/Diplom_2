@@ -1,0 +1,235 @@
+{
+  "uid" : "16f2554571efa4db",
+  "name" : "changeUserWithAuth",
+  "fullName" : "UserChangingTest.changeUserWithAuth",
+  "historyId" : "24519b92d7dd637cb159279b145ca81f",
+  "time" : {
+    "start" : 1654473556420,
+    "stop" : 1654473561373,
+    "duration" : 4953
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully create a user",
+      "time" : {
+        "start" : 1654473556420,
+        "stop" : 1654473557171,
+        "duration" : 751
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create a user",
+        "time" : {
+          "start" : 1654473556420,
+          "stop" : 1654473557171,
+          "duration" : 751
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "model.UserRequestModel@2932721e"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elena",
+        "value" : "model.UserRequestModel@2932721e"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473557171,
+        "stop" : 1654473557626,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@2932721e"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Successfully update a user",
+      "time" : {
+        "start" : 1654473557627,
+        "stop" : 1654473558071,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "updatedUser",
+        "value" : "model.UserRequestModel@2932721e"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0MzU1OTk5ZmIyMDAxYjZmZjU2NSIsImlhdCI6MTY1NDQ3MzU1NywiZXhwIjoxNjU0NDc0NzU3fQ.RjYDPPF8MGlD6PRvhMEsgPpqi-L8wvW67TWnGEgbFPM"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Successfully update a user",
+      "time" : {
+        "start" : 1654473558076,
+        "stop" : 1654473558535,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "updatedUser",
+        "value" : "model.UserRequestModel@2932721e"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0MzU1OTk5ZmIyMDAxYjZmZjU2NSIsImlhdCI6MTY1NDQ3MzU1NywiZXhwIjoxNjU0NDc0NzU3fQ.RjYDPPF8MGlD6PRvhMEsgPpqi-L8wvW67TWnGEgbFPM"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Successfully update a user",
+      "time" : {
+        "start" : 1654473558537,
+        "stop" : 1654473559001,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "updatedUser",
+        "value" : "model.UserRequestModel@2932721e"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0MzU1OTk5ZmIyMDAxYjZmZjU2NSIsImlhdCI6MTY1NDQ3MzU1NywiZXhwIjoxNjU0NDc0NzU3fQ.RjYDPPF8MGlD6PRvhMEsgPpqi-L8wvW67TWnGEgbFPM"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473559003,
+        "stop" : 1654473560470,
+        "duration" : 1467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@2932721e"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Authorize a user",
+      "time" : {
+        "start" : 1654473560470,
+        "stop" : 1654473560927,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "model.UserRequestModel@2932721e"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Delete a user",
+      "time" : {
+        "start" : 1654473560929,
+        "stop" : 1654473561373,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWQ0MzU1OTk5ZmIyMDAxYjZmZjU2NSIsImlhdCI6MTY1NDQ3MzU2MCwiZXhwIjoxNjU0NDc0NzYwfQ.lYg6RuUZxyWuFgBt16jmF6goLJr-qWrQuTGYGSOurPI"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserChangingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeUserWithAuth"
+  }, {
+    "name" : "suite",
+    "value" : "UserChangingTest"
+  }, {
+    "name" : "host",
+    "value" : "spbnb-prc2963"
+  }, {
+    "name" : "thread",
+    "value" : "3476@spbnb-prc2963.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16f2554571efa4db.json",
+  "parameterValues" : [ ]
+}
